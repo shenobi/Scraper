@@ -46,7 +46,7 @@ def main(url, email, comment):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Fetch emails and comments in HTML page', usage=argparse.SUPPRESS)
+    parser = argparse.ArgumentParser(description='Extract emails and comments in HTML page', usage=argparse.SUPPRESS)
     email = None
     comment = None
 
